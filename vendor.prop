@@ -1,3 +1,16 @@
-# Display (Super AMOLED Doze)
+# Audio (Stereo dual speakers)
+persist.vendor.audio.voicecall.speaker.stereo=true
+vendor.audio.feature.custom_stereo.enable=true
+
+# Display (Super AMOLED)
+vendor.display.svi.config_path=/vendor/etc/svi_config_206B1.xml
 vendor.display.enable_poms_during_doze=1
 vendor.display.override_doze_mode=1
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Fingerprint (Optical UDFPS)
+ro.vendor.fingerprint.type=optical
+ro.vendor.fingerprint.supports_gestures=false
+
