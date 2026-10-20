@@ -10,6 +10,10 @@
     <!-- Physical fingerprint sensor center screen location Y -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2197px</dimen>
 
-    <!-- Bottom margin size when fingerprint in display is active -->
-    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">@dimen/keyguard_indication_margin_bottom</dimen>
+    <!-- Bottom margin size (300px) ensures indication text sits cleanly above the UDFPS fingerprint icon -->
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">300px</dimen>
+
+    <!-- Scale small lockscreen clock for clean side-by-side fit with Smartspace on AOD/lockscreen -->
+    <dimen name="small_clock_text_size">75dp</dimen>
+    <dimen name="small_clock_height">100dp</dimen>
 </resources>

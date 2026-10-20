@@ -21,9 +21,6 @@ endif
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Bootanimation Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
-
 # Device identifier
 PRODUCT_NAME := lineage_RMX2170
 PRODUCT_DEVICE := RMX2170
@@ -43,10 +40,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2170 \
     SystemDevice=RMX2170 \
     SystemName=RMX2170
-
-# Audio mods (set any to true to enable: viper | dolby)
-WITH_AUDIO_VIPER := false
-WITH_AUDIO_DOLBY := true
-
-# Target
-TARGET_SUPPORTS_QUICK_TAP := true

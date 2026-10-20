@@ -1,6 +1,3 @@
-# Display
-vendor.display.svi.config_path=/vendor/etc/svi_config_206B1.xml
-
 # Fingerprint (Optical UDFPS)
 persist.vendor.fingerprint.sensor_type=optical
 persist.vendor.fingerprint.optical.sensorlocation=540:2197
