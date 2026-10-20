@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The Android Open Source Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Keep SetupWizard footer bar transparent to prevent clipping low UDFPS icons -->
+    <color name="setup_compat_footer_bar_bg_color">@android:color/transparent</color>
+</resources>
