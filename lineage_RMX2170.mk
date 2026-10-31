@@ -35,3 +35,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2170 \
     SystemDevice=RMX2170 \
     SystemName=RMX2170
+
+# EvolutionX flags
+TARGET_USES_MINI_GAPPS := true
