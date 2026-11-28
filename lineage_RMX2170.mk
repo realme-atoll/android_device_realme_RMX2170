@@ -35,3 +35,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2170 \
     SystemDevice=RMX2170 \
     SystemName=RMX2170
+
+# Lunaris AOSP flags
+WITH_GMS := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lunaris.maintainer=Nikhil\ Suryavanshi
